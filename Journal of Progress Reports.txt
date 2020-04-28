@@ -1,0 +1,287 @@
+Adam Crain
+CSC 481 & 482
+Progress Report Journal
+
+
+12 Sep 2019
+
+						Progress Report 1
+
+Winning starts with beginning. – Robert H. Schuller
+
+ 
+Create a webpage and supporting database for the Combat Veteran’s Motorcycle Association (CVMA). The database will be 
+utilized to track membership data and potentially an online store.
+
+At this point this is a solo project so I will be assuming all roles including requirements gathering, database design 
+and implementation, web page design, and web security.
+
+I had an initial meeting with the CVMA Secretary, Jeff Sines, who is excited about this project. He has invited me to 
+speak at their next monthly meeting on 14 September to discuss with the rest of the membership.
+
+https://github.com/awcrain/CVMA/blob/master/Progress%20Report%201.docx
+
+
+
+28 Sep 2019
+
+						Progress Report 2
+
+Success is not a place at which one arrives but rather the spirit with which one undertakes and continues the journey. - Alex Noble
+
+  
+1. What have you done personally in the two weeks leading up to today?
+
+Met with the Combat Veteran's Motorcycle Association for project approval and functional requirements gathering.  
+
+2. Describe any significant progress made by the team as a whole in this time period.
+
+Created initial draft of Software Requirements Specification (SRS) document.  Drafted tentative project schedule.  
+Drafted Use Cases for project requirements within the SRS.  Scheduled meeting with CVMA executive committee to establish 
+priorities for functional requirements and gather customer design requirements for the project. 
+
+3. Give a link to the journal file in your repository
+
+https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+This is a link to the draft SRS document that will be living document for the duration of the project.  As I progress 
+I will add in ER diagrams, data-flow diagrams, database SQL coding, HTML and PHP coding, test cases and results, and 
+web-hosting alternatives with cost analysis for the customer.
+
+
+
+13 Oct 2019
+
+						Progress Report 3
+
+Glory is attained from hard work, step by step. - Ma Long
+  
+1. What have you done personally in the two weeks leading up to today?
+
+Received personnel accounting field requirements for database.  Draft ER diagram for database has been established and 
+added to the Software Requirements Specification (SRS) document.
+
+2. Describe any significant progress made by the team as a whole in this time period.
+
+Updated SRS to include requirements received from CVMA and inserted draft version of database ER diagram. 
+
+3. Give a link to the journal file in your repository
+
+https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+This is a link to the draft SRS document that will be living document for the duration of the project.  As I progress 
+I will add in ER diagrams, data-flow diagrams, database SQL coding, HTML and PHP coding, test cases and results, and 
+web-hosting alternatives with cost analysis for the customer.
+
+
+
+10/24/2019
+
+						MID-TERM REPORT
+
+Project Purpose:
+
+To provide a website and supporting database to the Combat Veteran's Motorcycle Association (CVMA).  A non-profit
+organization which assists U.S. Military Veterans in need, raises funds in support of other veteran based
+charities, provides funeral escort services for fallen veterans, and ride motorcycles as a hobby.
+
+The chapter of the CVMA which I am doing this project for does not currently have a website.  Instead, they have 
+been utilizing a group on Facebook.  The website will provide a conduit to share with the public what the 
+association does, as well as information pertaining to sponsored events and details for joining the association
+for those eligible and interested.
+
+They desire to have a membership discussion forum in which they can coordinate events, fund-raisers, and 
+recreational motorcycle rides.
+
+Additionally the leadership would like the database to track membership data as well as attendance record-keeping 
+for meetings and events.
+
+
+Project Schedule:
+
+TASK			"ASSIGNED TO"		PROGRESS	START		END
+
+Phase 1 REQUIREMENTS AND DESIGN	
+			
+CVMA Requiements	Adam			100%		9/2/19		9/15/19
+Functional Requirements	Adam			100%		9/15/19		9/30/19
+Database ER		Adam			80%		9/30/19		10/4/19
+Webpage Appearance	Adam			25%		10/4/19		11/18/19
+Webhosting Options	Adam			75%		10/19/19	10/21/19
+
+Phase 2 DEVELOPMENT
+				
+Database Creation	Adam			0%		10/20/19	12/18/19
+Webpage Coding		Adam			0%		12/18/19	2/1/20
+PHP Coding		Adam			0%		2/1/20		3/17/20
+Security Considerations	Adam			0%		3/17/20		4/6/20
+
+Phase 3 TESTING AND IMPLEMENTATION	
+			
+Offline Testing		Adam			0%		4/6/20		4/16/20
+Customer Presentation	Adam			0%		4/18/20		4/18/20
+Web Hosting		Adam			0%		4/18/20		5/3/20
+Acceptance		Adam			0%		5/3/20		5/7/20
+
+						
+
+						Final Semester Input
+
+9 Dec 2019
+
+	
+https://github.com/awcrain/CVMA
+
+Brochure, slides, and requirements document have all been committed on GitHub.
+
+Brochure.docx
+
+CVMA.ppt
+
+CVMA.docx
+
+
+
+CSC 482 
+
+						Progress Report 1
+
+31 Jan 2020
+
+1. Briefly describe your project. (About 2 sentences.)
+
+To provide a website and supporting database to the Combat Veteran's Motorcycle Association (CVMA).  A non-profit
+organization which assists U.S. Military Veterans in need, raises funds in support of other veteran based
+charities, provides funeral escort services for fallen veterans, and ride motorcycles as a hobby.
+
+The chapter of the CVMA which I am doing this project for does not currently have a website.  Instead, they have 
+been utilizing a group on Facebook.  The website will provide a conduit to share with the public what the 
+association does, as well as information pertaining to sponsored events and details for joining the association
+for those eligible and interested.
+
+2. What is your particular role in the project?
+
+I am a single member group.  I have all roles and responsibilities.
+
+3. What have you done personally in the two weeks leading up to today?
+
+Submitted my task list for the semester and have begun developing my webpage format in HTML.
+
+4. Describe any significant progress made by the team as a whole in this time period.
+
+Same as above.
+
+5. Give a link to the journal file in your repository
+
+https://github.com/awcrain/
+
+
+
+						Progress Report 2
+
+14 Feb 2020
+
+1. What have you done personally in the two weeks leading up to today?
+
+Finalized the webpage design/layout.  HTML, CSS, and Javascript files added to GitHub repository.  Met with client 
+to collect further input on page content to be incorporated.
+
+2. Describe any significant progress made by the team as a whole in this time period.
+
+Found an open source PHP bulletin board system compatible with MySQL which will meet the client's requirements for 
+a member's only discussion forum.  Researching a solution for a read-only calendar of events to be incorporated into 
+the webpage design.
+
+3. Give a link to the journal file in your repository
+
+https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+
+
+						Progress Report 3
+
+27 Feb 2020
+
+1.  Created additional web pages for CVMA history, links for other chapters located across the country.  Added JavaScript 
+to chapters web page in order to create collapsible menu items.  Created an events web page with an editable, embedded, 
+calendar of events.  Refined the presentation of the member discussion forum.  Added the ability to download membership 
+bylaws and protocol requirements to the "Join Us" page.  
+
+2.  See above.
+
+3.  https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+https://github.com/awcrain/CVMA
+
+
+
+						Progress Report 4
+
+21 Mar 2020
+
+1. What is your particular role in the project?
+
+I have all roles and responsibilities in my project.
+
+2. What have you done personally in the two weeks leading up to today?
+
+The week before last was spring break.  Unfortunately this last week I did have a fever on Monday and Tuesday and was pretty 
+non-functioning.  The rest of the week I utilized to catch up with my other classes, so I have not had time to continue with
+my project at this point.
+
+3. Describe any significant progress made by the team as a whole in this time period.
+
+See above.  I will continue with my project over the next couple of weeks.  Fortunately I am a touch ahead of schedule at 
+this point.
+
+4. Give a link to the journal file in your repository.
+
+https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+
+
+						Progress Report 5
+
+7 Apr 2020
+
+1. What is your particular role in the project?
+
+All roles and responsibilities
+
+2. What have you done personally in the two weeks leading up to today?
+
+Completed final EAB presentation.
+
+3. Describe any significant progress made by the team as a whole in this time period.
+
+Completed functional testing of website.  All links and downloads functioning properly from the following browsers:  Edge, Chrome, 
+Firefox, Internet Explorer
+
+4. Give a link to the journal file in your repository
+
+https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+
+
+						Progress Report 6
+
+17 Apr 2020
+
+1. What have you done personally in the two weeks leading up to today?
+
+Conducted port scan with no unexpected results.  Port 80 is open, but may be closed once web hosting is established and transition 
+to using an exclusively secure connection via port 443.  
+
+2. Describe any significant progress made by the team as a whole in this time period.
+
+Same as above.  Primarily I am focused on wrapping up details for the project at this point for the semester.  I need to finalize a 
+few of the webpage details/coding and make a few revisions to my CVMA Software Requirements Specification, then upload all final 
+coding files to GitHub.
+
+3. Give a link to the journal file in your repository
+
+https://github.com/awcrain/CVMA/blob/master/CVMA.docx
+
+
+
+

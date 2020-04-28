@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	
+		<title>Contact Us</title>
+	
+		<script type="text/javascript" src="js/jquery.js"></script> 
+		
+		<script type="text/javascript" language="javascript">
+			$(document).ready(function(){
+			$(document).bind("contextmenu",function(e){
+				return false;
+			});
+			});
+		</script> 
+		
+		<!--This script disables the right click option on the web page-->
+		<script type="text/javascript" language="javascript">
+			$(document).ready(function(){
+			$(document).bind("contextmenu",function(e){
+				return false;
+			});
+			});
+		</script>
+		
+		<script>
+			function validate()
+			{
+
+				if ( document.myForm.Name.value == "" )
+				{
+					alert( "Please provide your name." );
+					document.myForm.Name.focus();
+					document.myForm.Name.style.border = "2px solid blue";
+					return false;
+				}
+
+				if( document.myForm.Telephone.value == "" )
+				{
+					alert( "Please provide your Phone Number." );
+					document.myForm.Address.focus() ;
+					document.myForm.Address.style.border = "2px solid blue";
+					return false;
+				} 
+ 
+				if ( document.myForm.EMail.value == "" )
+				{
+					alert( "Please provide a valid Email address." );
+					document.myForm.EMail.focus();
+					document.myForm.EMail.style.border = "2px solid blue";
+					return false;
+				}
+
+				if ( document.myForm.comments.value == "" )
+				{
+					alert ( "Please provide your questions or comments in the space provided" );
+					document.myForm.comments.style.border = "2px solid blue";
+					return false;
+				}
+				alert("Thank you.  A member of the association will be in contact with you soon!");
+				return( true );
+				
+			}
+		</script>
+		
+		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="cache" />
+		<meta name="description" content="Combat Veterans Motorcycle Association (CVMA) Contact Form">
+		<meta name="keywords" content="CVMA, Combat Veterans Motorcycle Association, contact us, comments, questions">
+		<meta name="author" content="Adam W Crain">
+		
+		<!-- Google Analytics Code Goes Below Here -->
+		
+		<!-- End Google Analytics Code -->
+
+	</head>
+	
+	<body>	
+		<div id="wrapper">
+		<div id="top">
+		<div id="logo"><img src="images/vhv.jpg"/></div>
+		<div id="social-media">
+			<p>Connect With Us</p>
+			<ul>
+				<li><a href="http://www.facebook.com/CVMA11.4/"><img src="images/icons/facebook.png" width="24" height="24" /></a></li> 
+				<li><a href="mailto:combatvets11.4@gmail.com"><img src="images/icons/gmail.png" width="24" height="24" /></a></li> 
+				<p>For technical issues, contact the <a href="mailto:adam.crain@gmail.com" style="color:red;">webmaster.</a></p>
+			</ul>
+		</div>
+		</div>
+		<div id="topnav">
+			<ul>
+				<li><a href="index.html">WELCOME</a></li>
+				<li><a href="history.html">HISTORY</a></li> 				
+				<li><a href="photos.html">PHOTOS</a></li> 
+				<li><a href="events.html">EVENTS</a></li>
+				<li><a href="joinus.html">JOIN US</a></li>
+				<li><a href="chapters.html">CHAPTERS</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="forum.html">MEMBER FORUM</a></li> 
+			</ul>
+		</div>
+		
+		<div id="banner">
+			<img src="images/coins.png" width="900px"/>
+		</div>
+		
+		<div id="subbanner">
+			<p>This page will provide people a means to reach out to the executive committee directly.
+			</p>
+		</div>
+		
+		<div id="content"><!-- InstanceBeginEditable name="Content" -->
+			<h1>Contact Information</h1>
+			
+			<p>People with questions or comments can utilize this form.
+			</p>
+			
+			<form action = "" name = "myForm" onsubmit = "return(validate());">
+				<ol>
+					<li><label for="name">Name</label> <input type="text" name="Name" id="Name"></li> 
+					<li><label for="telephone">Telephone</label> <input type="text" name="Telephone" id="Telephone"></li> 
+					<li><label for="email">Email</label> <input type="text" name="EMail" id="EMail"></li> 
+					<li><label for="comments">Comments</label> <textarea name="comments" id="comments" cols="45" rows="5"></textarea></li> 
+					<li><input name="submit" type="submit" class="submit" id="submit" value="Submit"></li>
+				</ol>
+			</form>
+			
+			<p>Once you have submitted, a member of the chapter will contact you shortly.
+			</p>
+		</div>
+		
+		<div id="rightside"><!-- InstanceBeginEditable name="Sidebar" -->
+			<h2>Sidebar Title</h2>
+			
+			<p>Additional information, or perhaps a few FAQ could be answered here prior to submitting something to the executive leadership.
+			</p>
+			
+			
+			<h2>Sidebar Title</h2>
+			
+			<p>More information.
+			</p>
+		</div>
+		
+		<div id="footer">
+			<font size=3>
+			<p class="footer-text">&copy;Copyright 2020 Combat Veterans Motorcycle Association 11-4.   We are a 501(c)(19) Non-Profit Veterans' Organization</p>
+			</font>
+		</div>
+		</div>
+	</body>
+</html>
